@@ -31,8 +31,6 @@
 #expect { default_airport.land(plane) }.to raise_error 'Cannot land plane: airport full'
 #end
 
-
-
 # As an air traffic controller
 # So that I can avoid collisions
 # I want to prevent airplanes landing whenn my airport when full
